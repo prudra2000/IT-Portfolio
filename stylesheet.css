@@ -1,0 +1,193 @@
+@font-face {
+	font-family: Calibre_Bold;
+	src: url(Fonts/Calibre-Bold.ttf)
+}
+
+@font-face {
+	font-family: Calibre_Medium;
+	src: url(Fonts/Calibre-Medium.ttf)
+}
+
+html {
+	scroll-behavior: smooth
+}
+
+nav {
+	float: right
+}
+
+.logo img {
+	float: left
+}
+
+.logo {
+	padding: 10px
+}
+
+ol li {
+	display: inline;
+	padding: 10px;
+	font-size: 20px;
+	list-style-position: inside;
+	font-family: Calibre_Medium
+}
+
+a:active,
+a:visited,
+li a:link {
+	color: #ced7f3
+}
+
+li a:hover {
+	color: #90fcdc;
+	text-decoration: none
+}
+
+.me_Responsive {
+	padding-top: 40px;
+	width: 70%;
+	height: auto
+}
+
+.info {
+	color: #ced7f3
+}
+
+.nameTF {
+	color: #8a93ad
+}
+
+.nameST {
+	color: #90fcdc;
+	font-family: monospace;
+	font-size: 18px
+}
+
+.me_Img {
+	padding-top: 10%;
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	min-height: 500px
+}
+
+@media (min-width:768px) {
+	.me_Img {
+		float: left;
+		top: 0;
+		height: 100%;
+		width: 50%;
+		left: 0
+	}
+}
+
+.me_Info {
+	padding-top: 30%;
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	min-height: 500px
+}
+
+@media (min-width:768px) {
+	.me_Info {
+		float: right;
+		right: 0;
+		top: 0;
+		height: 50%;
+		width: 50%
+	}
+}
+
+.res_button {
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #90fcdc;
+	background-color: #0e1a2d;
+	border: 1px solid #90fcdc;
+	border-radius: 4px
+}
+
+.res_button:hover {
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #0e1a2d;
+	background-color: #90fcdc;
+	border: 1px solid #90fcdc;
+	border-radius: 4px
+}
+
+.linkedIn_button {
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	color: #90fcdc;
+	background-color: #0e1a2d;
+	border: 1px solid #90fcdc;
+	border-radius: 4px
+}
+
+.linkedIn_button:hover {
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #0e1a2d;
+	background-color: #90fcdc;
+	border: 1px solid #90fcdc;
+	border-radius: 4px
+}
+
+.socials {
+	padding: 5px
+}
+
+.aboutMe {
+	padding-left: 30px;
+	text-decoration: underline;
+	font-family: Calibre_Medium;
+	color: #90fcdc;
+	display: inline-block
+}
+
+.aboutMeText {
+	padding-left: 30px;
+	font-family: Calibre_Medium;
+	font-size: large;
+	color: #ced7f3
+}
+
+.aboutMeCon {
+	font-family: Calibre_Medium;
+	color: #90fcdc;
+	text-decoration: none
+}
+
+.aboutMeCon:link {
+	font-family: Calibre_Medium;
+	color: #ced7f3;
+	text-decoration: none
+}
+
+.aboutMeCon:hover {
+	font-family: Calibre_Medium;
+	color: #90fcdc;
+	text-decoration: none
+}
+
+.myWork {
+	padding-left: 30px;
+	text-decoration: underline;
+	font-family: Calibre_Medium;
+	color: #90fcdc
+}
+
+.Info_Css {
+	padding: 20px;
+	position: relative;
+	width: 100%;
+	height: auto;
+	pointer-events: none
+}
